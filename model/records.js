@@ -19,6 +19,9 @@ const recordSchema = new schema({
     required: true,
     trim: true,
   },
+  roleTypeId: {
+    type: String,
+  },
   pass: {
     type: String,
     required: true,
